@@ -3,6 +3,10 @@ ifetch is a simple fetch program for GNU/Linux written in C.
 
 Compile the program by yourself using GCC:
 
-cd ifeth
+cd litefetch
 
-gcc ifetch.c -o ifetch
+gcc litefetch.c -o litefetch
+
+To run litefetch do:
+
+./litefetch
