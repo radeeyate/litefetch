@@ -18,10 +18,10 @@ func main() {
 
     kernelVersion := strings.Trim(utsnameStr(uname.Release[:]), "\x00")
     hostname, _ := os.Hostname()
-    fmt.Println(ansiBold + "KERNEL:" + ansiReset, kernelVersion)
-    fmt.Println(ansiBold + "HOST:" + ansiReset, hostname)
-    fmt.Println(ansiBold + "LOCALE:" + ansiReset, os.Getenv("LANG"))
-    fmt.Println(ansiBold + "USER:" + ansiReset, os.Getenv("USER"))
+    fmt.Println(ansiBold + "KERNEL" + ansiReset, kernelVersion)
+    fmt.Println(ansiBold + "HOST" + ansiReset, hostname)
+    fmt.Println(ansiBold + "LOCALE" + ansiReset, os.Getenv("LANG"))
+    fmt.Println(ansiBold + "USER" + ansiReset, os.Getenv("USER"))
 }
 
 // utsnameStr converts a slice of bytes to a string, trimming any trailing NUL bytes.
