@@ -1,20 +1,13 @@
-LITEFETCH IS NOW IN BETA! Here is the list of changes:
--
-- Complete Remake
-- Less Bloat
+litefetch is a fork of litefetch written in golang.
 
-litefetch is a simple fetch program for GNU/Linux written in C.
+To compile, make sure golang is installed before going further.
 
+After you have it installed, run the following:
 
-Compile the program by yourself using GCC:
-
-cd litefetch
-
-gcc litefetch.c -o litefetch
-
-To run litefetch do:
-
-./litefetch
-
-
-Python fork similiar to litefetch alpha: https://github.com/noobcoderwastaken/litefetch
+```sh
+$ git clone https://github.com/radeeyate/litefetch.git
+$ cd litefetch
+$ go build
+$ chmod +x ./litefetch
+$ ./litefetch
+```
