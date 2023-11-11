@@ -15,3 +15,6 @@ gcc litefetch.c -o litefetch
 To run litefetch do:
 
 ./litefetch
+
+
+Python fork similiar to litefetch alpha: https://github.com/noobcoderwastaken/litefetch
